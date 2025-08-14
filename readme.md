@@ -23,3 +23,14 @@ usamos o status a qualquer momento.
 ```bash
 git status
 ```
+
+Para adicionar os arquivos modificados
+```bash
+git add (nome do arquivo ou . para todos os arquivos no local)
+```
+
+Para salvar as modificações 
+```bash
+git commit -m "Mensagem desejada"
+```
+
