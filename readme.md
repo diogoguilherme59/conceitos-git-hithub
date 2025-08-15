@@ -20,7 +20,7 @@ git init
 
 Para vincular o projeto ao Github utilizamos o comando remote, basta o repositório estar criado no 
 Github e seguir a segunda opção da lista de comandos que aparece no site
-**IMPORTANTE** Depois do remote deve ser executados os outros 2 comandos da página.
+**IMPORTANTE** Depois do remote devem ser executados os outros 2 comandos da página.
 ```bash
 git remote add origin < url_repositorio_github >
 ```
@@ -41,3 +41,13 @@ Para salvar as modificações
 git commit -m "Mensagem desejada"
 ```
 
+Para baixar as alterações que estão apenas no Github utilizamos o pull <br>
+**IMPORTANTE:** Sempre deve baixar a útlima versão da nuvem antes de enviar a atual do computador
+``` bash
+git pull
+```
+
+Para enviar os commits do pc para o Github utilizamos o push
+``` bash
+git push
+```
