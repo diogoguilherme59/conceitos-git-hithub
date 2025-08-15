@@ -47,6 +47,10 @@ Para baixar as alterações que estão apenas no Github utilizamos o pull <br>
 git pull
 ```
 
+Para baixar o repositório do Github em um novo computador utilizamos o git clone
+``` bash
+git clone < url-do-repositorio-github >
+```
 Para enviar os commits do pc para o Github utilizamos o push
 ``` bash
 git push
